@@ -13,7 +13,14 @@ public class project_2 {
 	public static void main(String[] args) {
 		JFileChooser reader = new JFileChooser();
 		reader.setFileSelectionMode(JFileChooser.FILES_AND_DIRECTORIES);
+	reader.setCurrentDirectory(null);
+	int input = reader.showOpenDialog(null);
 	
+	if(input == JFileChooser.APPROVE_OPTION)
+	{
+		//if (reader.getSelectedFile().isDirectory()) {
+			System.out.println("This shit sucks" + reader.getSelectedFile());
+		}
+	}
+}
 
-}
-}
