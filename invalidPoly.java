@@ -1,5 +1,5 @@
 package project_2;
 
-public class invalidPoly {
-
+public class invalidPoly extends RuntimeException
+{
 }

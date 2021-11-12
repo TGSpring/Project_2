@@ -1,8 +1,7 @@
 package project_2;
-
+import java.io.*;
 import java.util.*;
 import javax.swing.*;
-import java.io.*;
 
 public class project_2 {
 	
@@ -16,11 +15,14 @@ public class project_2 {
 	reader.setCurrentDirectory(null);
 	int input = reader.showOpenDialog(null);
 	
+	//Populates array here
+	for (int i = 0; i < ;i++ )
+	{
+		
+	}
 	if(input == JFileChooser.APPROVE_OPTION)
 	{
-		//if (reader.getSelectedFile().isDirectory()) {
 			System.out.println("This shit sucks" + reader.getSelectedFile());
 		}
 	}
 }
-
