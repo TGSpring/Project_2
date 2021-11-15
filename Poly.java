@@ -1,10 +1,11 @@
 package project_2;
+
 import java.util.*;
 
 public class Poly implements Iterable<Poly>,Comparable<Poly>
 {
 	Comparator<Poly>compare;
-	
+	private Term head;
 	@Override
 	public int compareTo(Poly o) {
 		// TODO Auto-generated method stub
@@ -16,7 +17,7 @@ public class Poly implements Iterable<Poly>,Comparable<Poly>
 		// TODO Auto-generated method stub
 		return null;
 	
-	 Poly(String fromFile)
+	public Poly(String fromFile)
 	{
 		
 	}
@@ -24,6 +25,4 @@ public class Poly implements Iterable<Poly>,Comparable<Poly>
 	
 	
 	}
-	
-}
 

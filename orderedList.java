@@ -1,4 +1,5 @@
 package project_2;
+
 import java.util.*;
 
 public interface orderedList<P extends Comparable<P>> {
@@ -197,5 +198,3 @@ public int size()
 	return size;
 }
 }
-
-
